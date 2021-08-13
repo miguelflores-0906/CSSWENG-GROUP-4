@@ -1,0 +1,195 @@
+body {
+	font-family: Roboto;
+}
+
+h1 {
+	font-size: 56px;
+}
+
+.splash {
+	display: flex;
+	padding-bottom: 120px;
+	justify-content: center;
+}
+
+.splash-text {
+	padding-top: 200px;
+	padding-right: 100px;
+}
+
+.splash-title {
+	animation: fadeIn 3s;
+  	-webkit-animation: fadeIn 3s;
+  	-moz-animation: fadeIn 3s;
+  	-o-animation: fadeIn 3s;
+  	-ms-animation: fadeIn 3s;
+}
+
+.splash-subtext {
+	opacity: 0%;
+	font-size: 20px;
+	padding-bottom: 30px;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
+  	animation-delay: 1s;
+}
+
+.splash-img {
+	opacity: 0%;
+	margin-top: 120px;
+	width: 50%;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
+  	animation-delay: 2s;
+}
+
+.splash-link {
+	background-color: black;
+	overflow: hidden;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	padding: 18px 28px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.splash-link:hover {
+	background-color: grey;
+}
+
+.meet-team {
+	padding-top: 20px;
+	padding-bottom: 50px;
+	background-color: white;
+	text-align: center;
+}
+
+.meet-team p {
+	font-size: 24px;
+}
+
+.team-pictures {
+	display: flex;
+	justify-content: center;
+}
+
+.team-dp {
+	margin: 20px;
+	height: 80px;
+	width: 80px;
+	background-color: black;
+	border-radius: 50%;
+	border: 0px solid black;
+}
+
+.our-works {
+	display: flex;
+	background-color: #E4E4E4;
+	padding-top: 155px;
+	padding-bottom: 157px;
+	justify-content: center;
+}
+
+.our-works-img {
+	width: 40%;
+	opacity: 0%;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
+  	animation-delay: 3s;
+}
+
+.our-works-text {
+	padding-left: 72px;
+}
+
+.our-works-title {
+	font-size: 32px;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
+}
+
+.our-works-subtext {
+	font-size: 18px;
+	opacity: 0%;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
+  	animation-delay: 1s;
+}
+
+.our-works-review {
+	padding-top: 48px;
+	color: grey;
+	opacity: 0%;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
+  	animation-delay: 2s;
+}
+
+.review-user {
+	display: flex;
+	opacity: 0;
+	animation: fadeIn 3s forwards;
+  	-webkit-animation: fadeIn 3s forwards;
+  	-moz-animation: fadeIn 3s forwards;
+  	-o-animation: fadeIn 3s forwards;
+  	-ms-animation: fadeIn 3s forwards;
+  	animation-delay: 2s;
+}
+
+.review-dp {
+	height: 32px;
+	width: 32px;
+	background-color: black;
+	border-radius: 50%;
+	border: 0px solid black;
+}
+
+.review-username {
+	margin: 8px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}

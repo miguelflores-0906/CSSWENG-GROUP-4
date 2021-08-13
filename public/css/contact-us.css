@@ -1,0 +1,85 @@
+body {
+    font-family: Roboto;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.splash {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact-box-splash {
+    width: 50%;
+}
+
+.splash-text{
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 120px;
+    background-color: #f2f2f2;
+}
+
+.splash-subtext {
+    margin-top: 35px;
+    font-size: 28px;
+}
+
+.splash-learnmore-button {
+    width: 190px;
+    height: 60px;
+}
+
+.splash-two {
+    display: flex;
+    height: 560px;
+    background-color: white;
+}
+
+.contact-splash {
+    width: 50%;
+}
+
+.contact-splash-title {
+    margin-left: 280px;
+    margin-top: 120px;
+    font-size: 32px;
+}
+
+.contact-list {
+    margin-left: 300px;
+    font-size: 26px;
+}
+
+.contact-input-box {
+    width: 50%;
+}
+
+.text-email {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 60px;
+    outline: none;
+    height: 42px;
+    width: 320px
+}
+
+.text-message {
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 28px;
+    height: 300px;
+    width: 520px;
+}
+
+.contact-send {
+    margin-top: 18px;
+    width: 140px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+}
